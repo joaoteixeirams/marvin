@@ -1,3 +1,3 @@
 function dezAVinte() {
-    return Math.floor((Math.random() * 20)+(Math.random() * 10))
+    return Math.floor(Math.random() * (10 + 1) + 10);
 }
