@@ -1,7 +1,7 @@
-function abc(tei) {
-     if( tei === "a" ||tei=== "b" ||tei=== "c")
-     {return true}
-     else {return false}
+function vogalOuConsoante(tei) {
+     if( tei === "a" || tei=== "e" ||tei=== "i"|| tei=== "o" ||tei=== "u")
+     {return "vogal"}
+     else {return "consoante"}
 
 }   
      
