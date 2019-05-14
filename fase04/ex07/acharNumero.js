@@ -3,7 +3,7 @@ if (num<5)
 return "a"
 if(num>4 && num<11)
 return "b"
-if(num>9 && num<101)
+if(num>10 && num<101)
 return "c"
 if(num>100)
 return "d"
