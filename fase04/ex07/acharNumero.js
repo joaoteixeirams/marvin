@@ -1,10 +1,14 @@
-function acharNumero(num) {
-if (num<5)
-return "a"
-if(num>4 && num<11)
-return "b"
-if(num>10 && num<101)
-return "c"
-if(num>100)
-return "d"
+function acharNumero(num){
+    var resp;
+    if(num<5){
+        resp = "a";
+    }else if(num<=10){
+        resp = "b";
+    }else if(num<=100){
+        resp = "c";
+    }else{
+        resp = "d";
+    }
+    
+    return resp;
 }
