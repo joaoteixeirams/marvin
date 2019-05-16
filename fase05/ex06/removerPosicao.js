@@ -4,5 +4,3 @@ function removerPosicao (y,x) {
 return y
     
 }
-
-console.log(removerPosicao([42, "xyz", true, 0, 14]))
